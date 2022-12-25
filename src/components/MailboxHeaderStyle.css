@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px dotted whitesmoke;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-left img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+
+.header-middle {
+    display: flex;
+}
+.header-middle #newMail {
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.heading {
+    display: inline-block;
+    margin: 14px 0 0 3px;
+    color: rgba(240, 166, 130, 0.89);
+    
+}
+
+.btn {
+    padding: 15px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(12, 97, 158);
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+.btn-primary {
+    border: 1px solid rgb(7, 206, 236);
+    background-color: rgb(23, 139, 240);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
